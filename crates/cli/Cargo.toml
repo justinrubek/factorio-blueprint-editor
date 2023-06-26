@@ -6,6 +6,7 @@ edition = { workspace = true }
 [dependencies]
 anyhow = { workspace = true }
 clap = { version = "4.0.19", features = ["derive"] }
+factorio-blueprint = { git = "https://github.com/coriolinus/factorio-blueprint.git", rev = "dda0866" }
 # serds = { workspace = true }
 # serde_json = { workspace = true }
 tokio = { workspace = true, features = ["full"] }
